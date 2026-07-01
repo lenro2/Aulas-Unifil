@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Aluno</title>
+</head>
+<body>
+    <h1>Cadastro de Aluno</h1>
+    <form>
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" id="nome" placeholder="Ex: Marcos" required>
+
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" placeholder="Ex: abc@gmail.com" required>
+
+        <label for="password">Senha: </label>
+        <input type="password" name="password" id="password" placeholder="Ex: 1234" required>
+
+        <label for="number">Numero da sorte: </label>
+        <input type="number" name="number" id="number" placeholder="Ex: 54321">
+
+        <label for="date">Dia de nascimento</label>
+        <input type="date" name="date" id="date" required>
+
+        <label for="cidade">Cidade: </label>
+        <select name="cidade" id="cidade" required>
+            <option>Londrina</option>
+            <option>Cambé</option>
+            <option>Apucarána</option>
+        </select>
+        <label for="curso">Já fez o curso?</label>
+        <input type="radio" name="curso" required>Sim
+        <input type="radio" name="curso" required>Não
+
+        <label>
+            <input type="checkbox" name="termos" id="termos" required>
+            Aceitar termos
+        </label>
+        <label>Observações: </label>
+        <textarea rows="4" placeholder="Deixe aqui sua observação:"></textarea>
+
+        <button type="submit">Cadastrar Aluno</button>
+    </form>
+</body>
+</html>
