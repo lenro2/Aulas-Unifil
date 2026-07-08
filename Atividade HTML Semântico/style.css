@@ -1,0 +1,25 @@
+header {
+    display: flex;
+}
+
+nav {
+    display: flex;
+}
+
+ul {
+    display: flex;
+}
+
+.navegar {
+    display: flex;
+    text-align: center;
+    margin-right: 25px;
+}
+
+article {
+    display: flex;
+}
+
+#pro {
+    margin-right: 25px;
+}
