@@ -1,0 +1,38 @@
+body {
+    background-color: #ffdfdf;
+    color: #b2803b;
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    color: #5f9ea0;
+}
+
+
+.primario {
+    color: #deb887;
+}
+
+.primarissimo {
+    color: #b2803b;
+}
+
+.secundario {
+    color: #89babc;
+}
+
+.secudarissimo {
+    color: #5f9ea0;
+}
+
+.neutro {
+    color: #907e8a;
+}
+
+.neutroclaro {
+    color: #c9b8c3;
+}
+
+.neutrissimo {
+    color: #ffdfdf;
+}
