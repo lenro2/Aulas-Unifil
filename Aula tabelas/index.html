@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <table id="table">
+        <caption><button onclick="girar()">Aulas</button></caption>
+        <thead>
+            <tr>
+                <th>-</th>
+                <th>Segunda</th>
+                <th>Terça</th>
+                <th>Quarta</th>
+                <th>Quinta</th>
+                <th>Sexta</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="7" id="rowhora">Horários</td>
+                <td>Geografia</td>
+                <td>Instalações Eletricas</td>
+                <td>Matemática</td>
+                <td>Educação Física</td>
+                <td>Língua Portuguesa</td>
+            </tr>
+            <tr>
+
+                <td>Desenho Tecnico</td>
+                <td>Geografia</td>
+                <td>Desenho Tecnico</td>
+                <td>Matemática</td>
+                <td>Arte</td>
+            </tr>
+            <tr>
+
+                <td>Desenho Tecnico</td>
+                <td>Química</td>
+                <td>Língua Portuguesa</td>
+                <td>Instalacoes Eletricas</td>
+                <td>Biologia</td>
+            </tr>
+            <!-- ----------------- -->
+            <tr>
+
+                <td colspan="6" id="Int">Intervalo</td>
+            </tr>
+            <!-- ----------------- -->
+            <tr>
+                <td>Ed Dig Comp Prog E Ia</td>
+                <td>Química</td>
+                <td>Matemática</td>
+                <td>Instalacoes Eletricas</td>
+                <td>Educação Física</td>
+            </tr>
+            <tr>
+
+                <td>Segurança E Controle Ambiental</td>
+                <td>Arte</td>
+                <td>Eletricidade</td>
+                <td>Eletricidade</td>
+                <td>Biologia</td>
+            </tr>
+            <tr>
+
+                <td>Segurança E Controle Ambiental</td>
+                <td>Língua Inglesa</td>
+                <td>Eletricidade</td>
+                <td>Eletricidade</td>
+                <td>Língua Inglesa</td>
+            </tr>
+        </tbody>
+    </table>
+    <button onclick="para()" style="display: none;">Parar</button>
+    <script src="script.js"></script>
+</html>

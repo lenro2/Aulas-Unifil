@@ -1,0 +1,53 @@
+body {
+    background: #d4be82;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+}
+
+caption {
+    margin:10px;
+    font-size: 27px;
+    font-weight: bolder;
+}
+
+th {
+    border: 2px inset black;
+    padding: 3px;
+}
+
+td {
+    border: 1px dashed gray;
+    padding: 3px;
+}
+th {
+    background: #5479fc;
+}
+
+td {
+    background: #cdf5e2;
+}
+
+th:hover {
+    background: #87c4bf;
+}
+
+td:hover {
+    background: #8cc8f0 !important;
+}
+
+#Int {
+    text-align: center;
+}
+
+#Int:hover {
+    background: #5479fc;
+}
+
+#rowhora {
+    writing-mode: vertical-rl;
+}
