@@ -14,21 +14,29 @@ th, td {
     padding: 3px;
 }
 th {
-    background: #b6ecad;
+    background: #5479fc;
 }
 
 td {
-    background: #f3d1d1;
+    background: #a7eccb;
 }
 
-th:hover, td:hover {
+th:hover {
+    background: #87c4bf;
+}
+
+td:hover {
     background: #8cc8f0 !important;
 }
 
 tr:hover {
-    background: #b7c7f3;
+    background: #b7c9f3;
 }
 
 #Int {
     text-align: center;
+}
+
+#Int:hover {
+    background: #5479fc;
 }
