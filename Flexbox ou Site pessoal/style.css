@@ -1,0 +1,195 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #1b1212, #550805);
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header e footer ------------------------------------------------------------------ */
+
+header,
+footer {
+    background-color: #222;
+    padding: 20px;
+}
+
+header .nav,
+footer .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+/* Principal ------------------------------------------------------------------ */
+
+main {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+section {
+    background-color: rgba(34, 34, 34, 0.5);
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15px;
+    border: 3px solid #550805;
+}
+
+div {
+    text-align: center;
+}
+
+h1 {
+    color: rgb(41, 199, 41);
+}
+
+h2 {
+    color: #d3d3d3;
+    margin-left: 15px;
+}
+
+h3 {
+    color: #c5b3b3;
+}
+
+p {
+    color: gray;
+}
+
+
+/* Casos a parte ------------------------------------------------------------------ */
+
+.nav a {
+    transition: all 0.5s ease-in-out;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+    transition: all 1s ease-in-out;
+    color: rgba(255, 0, 0, 0.692);
+    font-size: 20px;
+}
+
+section h2 {
+    margin-bottom: 15px;
+}
+
+section p {
+    margin-left: 5px;
+}
+
+article p {
+    flex-wrap: wrap;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
+
+/* Casos com ID ------------------------------------------------------------------*/
+
+#Hobbies ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    list-style: none;
+}
+
+#Hobbies li {
+    border: 2px solid #74605f;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+#Atuação button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer; 
+    padding: 0;
+    font-size: medium;
+    transition: all 0.5s ease-in-out;
+}
+
+#Atuação button:hover {
+    transition: all 1s ease-in-out;
+    font-size: larger;
+    color: rgb(228, 225, 42);
+}
+
+#Projetos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#Projetos article {
+    padding: 20px;
+    border: 2px solid  #74605f;
+    border-radius: 8px;
+    flex-direction: row;
+    min-height: 200px;
+}
+
+#Projetos article h3 {
+    margin-bottom: 10px ;
+}
+
+#Projetos article a {
+    display: inline-flex;
+    margin-top: 10px;
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    text-decoration: none;
+
+}
+
+/* Class ------------------------------------------------------------------ */
+
+.buttonOpened {
+    font-size: x-large !important;
+    color: rgb(228, 225, 42);
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    margin: 5px;
+}
+
+.hobbies-lista li {
+    display: flex;
+    align-items: center;
+}
+
+.imgLadoPequeno {
+    height: 75px;
+    width: 75px;
+    border-radius: 500px;
+    margin-right: 15px;
+}
+
+.aoLado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}

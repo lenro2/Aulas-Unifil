@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site pessoal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <a href="#Início">Início</a>
+            <a href="#Sobre">Sobre mim</a>
+            <a href="#Atuação">Atuação</a>
+            <a href="#Projetos">Projetos futuros</a>
+            <a href="#Hobbies">Hobbies</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Olá, eu sou Leandro G Mendes</h1>
+        <section id="Início">
+            <h2>Início</h2>
+            <p>Bem vindo ao meu site pessoal. Aqui você pode conhecer um pouco sobre mim, meus hobbies e meus projetos!
+            </p>
+        </section>
+        <section id="Sobre">
+            <h2>Sobre mim</h2>
+            <div class="linha">
+                <img src="Imagens/Imagem de Leandro.jpg" alt="Imagem de Leandro" style="height: 275px; width: 275px; border-radius: 500px;">
+                <p>Sou um estudante de Eletrotécnica no colégio Castaldi.</p>
+            </div>
+        </section>
+        <Section id="Atuação">
+            <h2>Atuação</h2>
+            <div class="linha">
+            <div>
+                <button onclick="openEletro()">
+                    <h3 class="aoLado" id="eletroTitle">
+                        <p id="sinalEletro">→</p>Eletrotécnica
+                    </h3>
+                </button>
+                <p id="eletro" style="display: none;">Cursando Eletrotécnica no Castaldi</p>
+            </div>
+            <div>
+                <button onclick="openCode()">
+                    <h3 class="aoLado" id="codeTitle">
+                        <p id="sinalCode">→</p>Programação
+                    </h3>
+                </button>
+                <p id="code" style="display: none;">Estudando através de cursos e por conta própria</p>
+            </div>
+            <div>
+                <button onclick="openMusica()">
+                    <h3 class="aoLado" id="musicaTitle">
+                        <p id="sinalMusica">→</p>Musica
+                    </h3>
+                </button>
+                <p id="musica" style="display: none;">Estudando violino com professor <a href="https://www.instagram.com/violino.friccionado/" target="_blank">Jackson</a>!</p>
+            </div>
+        </div>
+        </Section>
+        <section id="Hobbies">
+            <h2>Hobbies</h2>
+            <ul class="hobbies-lista">
+                <li>
+                    <img src="Imagens/Jogos Eletrônicos.jfif" alt="Imagem" class="imgLadoPequeno" title="Sim, concerteza este sou eu!">
+                    <h3>Jogos eletrônicos</h3>
+                </li>
+                <li>
+                    <img src="Imagens/volei.webp" alt="Imagem" class="imgLadoPequeno">
+                    <h3>Volei</h3>
+                </li>
+                <li>
+                    <img src="Imagens/musica.avif" alt="Imagem" class="imgLadoPequeno">
+                    <h3>Ouvir e tocar musicas</h3>
+                </li>
+                <li>
+                    <img src="Imagens/Capa_Livro_de_Regras_de_Ordem_Paranormal_RPG.webp" alt="Imagem" class="imgLadoPequeno">
+                    <h3>Jogar RPG</h3>
+                </li>
+            </ul>
+        </section>
+        <section id="Projetos">
+            <h2>Projetos futuros</h2>
+            <div class="linha">
+                <article>
+                    <h2>Protóque</h2>
+                    <p>Um site para gerenciamento, análise e previsão de estoque!</p>
+                    <a href="https://lenro2.github.io/Estoque/" target="_blank">Ver projeto</a>
+                </article>
+                <article>
+                    <h2>Casamento</h2>
+                    <p>Especialização técnica e molódica em instrumentos musicais, visando estar apto para tocar em
+                    casamentos posteriores grandes eventos!</p>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Leandro G Mendes. Todos os direitos reservados</p>
+        <nav class="nav">
+            <a href="https://www.github.com/lenro2" target="_blank">GitHub</a>
+            <a href="https://www.youtube.com/@voorm6875" target="_blank">Youtube</a>
+            <a href="https://www.Instagram.com/leleandrogoshin" target="_blank">Instagram</a>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
